@@ -4,4 +4,4 @@ metadata:
   name: mongo
   namespace: mongo
 spec:
-  host: mongo-cluster1.apps.heisenbug.lplab.online
+  host: mongo-cluster1.apps.cluster-bank-81c0.bank-81c0.sandbox1459.opentlc.com

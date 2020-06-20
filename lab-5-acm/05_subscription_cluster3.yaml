@@ -13,4 +13,4 @@ spec:
   placement: 
     placementRef: 
       kind: PlacementRule
-      name: cluster3
+      name: izmir

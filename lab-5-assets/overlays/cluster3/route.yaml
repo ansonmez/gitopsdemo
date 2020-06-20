@@ -3,4 +3,4 @@ kind: Route
 metadata:
   name: the-route
 spec:
-  host: web-app.apps.as4test.lp.int
+  host: web-app.apps.cluster-bank-1c04.bank-1c04.sandbox1472.opentlc.com
