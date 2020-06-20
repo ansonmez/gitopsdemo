@@ -1,9 +1,9 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: cluster2
+  name: ankara
   namespace: mongo
 spec:
   clusterSelector:
     matchLabels:
-      clustername: cluster2
+      city: ankara

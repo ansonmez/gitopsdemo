@@ -26,7 +26,7 @@ spec:
           # Single member MongoDB
           # value: primarymongohere
           # Replicaset (federated) MongoDB
-          value: mongo-cluster1.apps.heisenbug.lplab.online,mongo-cluster2.apps.jelly.lplab.online,mongo-cluster3.apps.as4test.lp.int
+          value: mongo-cluster1.apps.cluster-bank-81c0.bank-81c0.sandbox1459.opentlc.com,mongo-cluster2.apps.cluster-bank-1a17.bank-1a17.sandbox1314.opentlc.com,mongo-cluster3.apps.cluster-bank-1c04.bank-1c04.sandbox1472.opentlc.com
           # Comment out MONGO_REPLICA_SET for the single-member Mongo
         - name: MONGO_REPLICA_SET
           value: rs0
