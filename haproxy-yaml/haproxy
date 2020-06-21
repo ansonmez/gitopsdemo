@@ -71,6 +71,7 @@ frontend  main
 backend app
     balance roundrobin
     option httpchk GET / HTTP/1.1\r\nHost:\ pacman-ingress.apps.cluster-bank-61bb.bank-61bb.sandbox135.opentlc.com
+    http-request set-header Host pacman-ingress.apps.cluster-bank-61bb.bank-61bb.sandbox135.opentlc.com
     mode http 
         server cluster1 pacman.apps.cluster-bank-81c0.bank-81c0.sandbox1459.opentlc.com:80 check
         server cluster2 pacman.apps.cluster-bank-1a17.bank-1a17.sandbox1314.opentlc.com:80 check

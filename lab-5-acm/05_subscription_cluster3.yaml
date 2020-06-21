@@ -7,7 +7,7 @@ metadata:
     deployment: hello
   annotations:
     apps.open-cluster-management.io/github-branch: master
-    apps.open-cluster-management.io/github-path: lab-5-assets/overlays/cluster3
+    apps.open-cluster-management.io/github-path: lab-5-assets/overlays/izmir
 spec:
   channel:  web-app/web-app-channel
   placement: 

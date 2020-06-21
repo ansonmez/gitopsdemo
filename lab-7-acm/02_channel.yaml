@@ -4,5 +4,5 @@ metadata:
   name: pacmanchannel
   namespace: pacman
 spec:
-  pathname: 'https://github.com/ansonmez/rhacmgitopslabdemo.git'
+  pathname: 'https://github.com/ansonmez/gitopsdemo.git'
   type: GitHub
